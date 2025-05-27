@@ -44,9 +44,9 @@ ui <- fluidPage(
                    choices = list(
                      "Random Data" = "random",
                      "Upload CSV" = "upload",
-                     "Local Dataset" = "local"
+                     "Tumor Dataset" = "local"
                    ),
-                   selected = "random"
+                   selected = "local"
       ),
       
       # Conditional file input
